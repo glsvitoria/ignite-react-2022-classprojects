@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: "http://localhost:3333",
+  baseURL: "https://ignite-react-2022-dtmoney-iqd2ap04q-glsvitoria.vercel.app",
 });
