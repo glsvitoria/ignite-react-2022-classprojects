@@ -5,7 +5,6 @@ import { Container, PriceHighlight, Table } from "./styles";
 import { TransactionsContext } from "../../contexts/TransactionsContext";
 import formatNumber from "../../utils/formatNumber";
 import { format } from "date-fns";
-import { useContextSelector } from "use-context-selector";
 import { useContext } from "react";
 
 export function Transactions() {
