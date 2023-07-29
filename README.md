@@ -6,7 +6,7 @@
 
 ## Um pouco da Pasta:
 
-➡ Pasta referente aos desafios feitos na Trilha de ReactJS do Ignite 2022
+➡ Pasta referente aos projetos feitos na Trilha de ReactJS do Ignite 2022
 
 ## Desafio 1 - Ignite Feed
 
@@ -36,7 +36,7 @@ Um site para organização financeira de entradas e saídas de dinheiro, podendo
 <!-- -  Site hospedado: [Pomodoro Timer](https://glsvitoria-pomodoro.vercel.app/) -->
 -  Repositório com README: [Repositório](https://github.com/glsvitoria/ignite-react-2022-classprojects/tree/main/Projeto%203%20-%20DT%20Money)
 
-## Desafio 3 - Ignite Shop
+## Desafio 4 - Ignite Shop
 
 ### Descrição
 
