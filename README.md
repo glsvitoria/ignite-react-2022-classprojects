@@ -31,10 +31,19 @@ Um timer online para poder fazer seus horários utilizando o método pomodoro e 
 
 ### Descrição
 
-Um timer online para poder fazer seus horários utilizando o método pomodoro e que pode ver o seu histórico feito
+Um site para organização financeira de entradas e saídas de dinheiro, podendo mapear todos os gastos e recebimentos
 
 <!-- -  Site hospedado: [Pomodoro Timer](https://glsvitoria-pomodoro.vercel.app/) -->
 -  Repositório com README: [Repositório](https://github.com/glsvitoria/ignite-react-2022-classprojects/tree/main/Projeto%203%20-%20DT%20Money)
+
+## Desafio 3 - Ignite Shop
+
+### Descrição
+
+Um site de vendas de camisas feito em Next e conectado com o Stripe para poderem ser feitas as comprar e depois receber mensagem de sucesso da compra no próprio site
+
+<!-- -  Site hospedado: [Pomodoro Timer](https://glsvitoria-pomodoro.vercel.app/) -->
+-  Repositório com README: [Repositório](https://github.com/glsvitoria/ignite-react-2022-classprojects/tree/main/Projeto%204%20-%20Ignite%20Shop)
 
 ## Autor
 
