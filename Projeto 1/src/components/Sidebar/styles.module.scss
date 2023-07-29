@@ -1,0 +1,33 @@
+.sidebar {
+  @apply bg-gray-800 rounded-lg overflow-hidden;
+
+  footer {
+    @apply border-t border-gray-600 mt-6 p-8 pt-6;
+
+    a {
+      @apply flex items-center justify-center gap-3 bg-transparent py-6 h-12;
+      @apply text-green border border-green rounded-lg;
+
+      &:hover {
+        @apply bg-green text-white duration-300;
+      }
+    }
+  }
+}
+
+.cover {
+  @apply w-full h-[72px] object-cover;
+}
+
+.profile {
+  @apply flex flex-col items-center -mt-[calc(1.5rem-6px)];
+
+  strong {
+    @apply mt-4 text-gray-300;
+  }
+
+  span {
+    @apply text-sm text-gray-500;
+  }
+}
+

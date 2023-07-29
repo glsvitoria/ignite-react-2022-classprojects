@@ -1,0 +1,15 @@
+.wrapper {
+  @apply max-w-6xl my-8 mx-auto px-4;
+  @apply grid gap-8 items-start;
+  grid-template-columns: 256px 1fr;
+}
+
+@media (max-width: 768px) {
+  html {
+    @apply text-sm;
+  }
+
+  .wrapper {
+    @apply grid-cols-1;
+  }
+}

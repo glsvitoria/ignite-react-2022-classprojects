@@ -1,0 +1,15 @@
+.modal {
+  @apply m-2 w-full max-w-[589px] rounded-lg bg-white pb-6 outline-0 md:m-8;
+
+  header {
+    @apply flex w-full justify-end;
+
+    & > button {
+      @apply h-auto w-auto bg-transparent p-2 text-zinc-900 hover:bg-transparent hover:brightness-125;
+    }
+  }
+}
+
+.modalOverlay {
+  @apply fixed inset-0 z-20 flex items-center justify-center bg-stone-900 bg-opacity-75;
+}

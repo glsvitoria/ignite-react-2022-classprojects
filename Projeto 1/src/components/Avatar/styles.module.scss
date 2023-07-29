@@ -1,0 +1,8 @@
+.avatar {
+  @apply w-[calc(3rem+12px)] h-[calc(3rem+12px)] rounded-lg;
+}
+
+.avatarWithBorder {
+  @apply w-[calc(3rem+12px)] h-[calc(3rem+12px)] rounded-lg;
+  @apply border-4 border-gray-800 outline-2 outline-green outline;
+}

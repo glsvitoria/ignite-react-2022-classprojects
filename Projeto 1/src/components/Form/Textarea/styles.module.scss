@@ -1,0 +1,21 @@
+.container {
+  @apply flex w-full flex-col;
+
+  textarea {
+    padding: 12px 15px;
+    border-radius: 8px;
+    @apply mt-2;
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06), 0px 1px 3px rgba(0, 0, 0, 0.1);
+
+    &.error {
+      @apply border border-solid border-danger;
+    }
+  }
+
+  span {
+    @apply text-danger;
+    margin-top: 4px;
+    font-weight: 500;
+  }
+}

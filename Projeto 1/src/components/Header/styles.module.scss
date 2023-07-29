@@ -1,0 +1,8 @@
+.header {
+  @apply bg-gray-800 font-bold text-xl;
+  @apply flex justify-center py-5 items-center gap-4;
+
+  img {
+    @apply h-8;
+  }
+}

@@ -1,0 +1,90 @@
+.comment {
+  @apply mt-6 flex gap-4;
+}
+
+.commentBox {
+  @apply flex-1;
+
+  .commentContent {
+    @apply bg-[#29292E] rounded-lg p-4;
+
+    &.isActivityUserComment {
+      @apply bg-green-light/20;
+    }
+
+    header {
+      @apply flex items-start justify-between;
+
+      .authorAndTime strong {
+        @apply block text-sm;
+      }
+
+      .authorAndTime time {
+        @apply block text-xs text-gray-500;
+      }
+
+      button {
+        @apply bg-transparent border-0 rounded-sm text-gray-500 leading-none;
+
+        &:hover {
+          @apply text-danger transition-colors duration-300;
+        }
+      }
+    }
+
+    p {
+      @apply mt-4 text-gray-400;
+    }
+  }
+
+  footer {
+    @apply mt-4;
+
+    button {
+      @apply bg-transparent border-0 cursor-pointer text-gray-500;
+      @apply flex items-center;
+
+      &:hover {
+        @apply text-green-light;
+      }
+
+      svg {
+        @apply mr-3;
+      }
+
+      span:before {
+        @apply py-0 px-1;
+        content: "\2022";
+      }
+    }
+  }
+}
+
+.modal {
+  @apply w-[30rem] h-auto p-6 flex flex-col items-center gap-6 rounded-lg;
+  @apply bg-gray-800;
+
+  h1 {
+    @apply text-gray-300 font-bold text-2xl;
+  }
+
+  p {
+    @apply w-3/5 text-center text-gray-400;
+  }
+
+  .divButtons {
+    @apply flex gap-2;
+
+    button {
+      @apply py-4 px-8 rounded-lg border border-transparent;
+
+      &.deleteButton {
+        @apply bg-[#29292E] text-danger hover:border-danger;
+      }
+
+      &:hover {
+        @apply border-green duration-300 brightness-110;
+      }
+    }
+  }
+}

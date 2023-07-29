@@ -1,0 +1,76 @@
+.post {
+  @apply bg-gray-800 rounded-lg p-10;
+
+  & > header {
+    @apply flex items-center justify-between;
+
+    .author {
+      @apply flex items-center gap-4;
+
+      .authorInfo strong {
+        @apply block text-gray-300;
+      }
+
+      .authorInfo span {
+        @apply block text-sm text-gray-500;
+      }
+    }
+
+    time {
+      @apply text-sm text-gray-500;
+    }
+  }
+
+  & + .post {
+    @apply mt-8;
+  }
+}
+
+.content {
+  @apply text-gray-400 mt-6;
+
+  p {
+    @apply mt-4;
+  }
+
+  a {
+    @apply font-bold text-green;
+
+    &:hover {
+      @apply text-green-light;
+    }
+  }
+}
+
+.commentForm {
+  @apply w-full mt-6 pt-6 border-t border-gray-700;
+
+  & label {
+    @apply text-gray-300 font-bold;
+  }
+
+  textarea {
+    @apply w-full h-24 resize-none p-4 mt-4;
+    @apply bg-gray-900 border-none rounded-lg text-gray-300;
+  }
+
+  footer {
+    @apply invisible max-h-0;
+  }
+
+  &:focus-within footer {
+    @apply visible max-h-none;
+  }
+
+  button {
+    @apply py-4 px-6 mt-4 rounded-lg bg-green border-0 text-white font-bold cursor-pointer transition-colors duration-300;
+
+    &:hover {
+      @apply bg-green-light;
+    }
+  }
+}
+
+.commentList {
+  @apply mt-8;
+}

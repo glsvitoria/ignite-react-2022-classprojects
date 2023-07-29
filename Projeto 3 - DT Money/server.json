@@ -1,0 +1,44 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 1400,
+      "createdAt": "2023-05-29T02:50:48.870Z"
+    },
+    {
+      "id": 2,
+      "description": "Hambúrguer",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 50,
+      "createdAt": "2023-05-29T02:10:48.870Z"
+    },
+    {
+      "description": "Desenvolvimento de APP",
+      "price": 5000,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2023-06-05T02:28:54.989Z",
+      "id": 3
+    },
+    {
+      "description": "MC Donalds",
+      "price": 26,
+      "category": "Comida",
+      "type": "outcome",
+      "createdAt": "2023-06-05T02:31:12.519Z",
+      "id": 4
+    },
+    {
+      "description": "Pizza",
+      "price": 23,
+      "category": "Role",
+      "type": "outcome",
+      "createdAt": "2023-06-05T02:37:27.880Z",
+      "id": 5
+    }
+  ]
+}
